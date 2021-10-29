@@ -1,30 +1,14 @@
 # Stack_Dev_Dare2Compete
 
-Assumptions in using the application:
-----------------------------------------------------------------------------------------------------
+#Test for MEAN/MERN/LAMP Stack Developers – Dare2Compete
 
-1. Initally some seats are booked in the application.
-2. Number of tickets can be between 1-7.
-3. User cannot select any seat manually.
-4. User cannot change the seat from booked to available, unless he resets all the seats.
+Problem Description:
+1. There are 80 seats in a coach of a train with only 7 seats in a row and last row of only 3 seats. For
+simplicity, there is only one coach in this train.
+2. One person can reserve up to 7 seats at a time.
+3. If person is reserving seats, the priority will be to book them in one row.
+4. If seats are not available in one row, then the booking should be done in such a way that the
+nearby seats are booked.
+5. User can book as many tickets as s/he wants until the coach is full.
+6. You don’t have to create login functionality for this application.
 
-Technologies Used in the Application:
---------------------------------------------------------------------------------------------------------
-
-1. Node
-2. Express
-3. Angular JS
-4. Tailwind CSS
-5. Mongo DB | Atlas
-6. Mongoose
-
-Functions implemented in the application:
--------------------------------------------------------------------------------------------------------
-
-1. User enters the url - https://tck-booking.herokuapp.com/
-2. User lands on the page with UI representing the coach, with seat numbers indicated on the seats.
-3. User enters the number of seats s/he wants to book, and clicks on "Find"
-4. The color of selected seats changes to inform the user.
-5. User clicks on "Book", the seats are booked.
-6. If User wants to make all seats available (For Testing purpose) user clicks on "Reset", all seats are 
-    available.
