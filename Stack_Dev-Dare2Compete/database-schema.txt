@@ -1,0 +1,13 @@
+Following is the database Schema used for the application:
+
+
+Database Name: TicketBook
+        -CollectionName: Seats
+               -DocumentSchena:
+                            {
+                                _id    : ObjectId,
+                                number : Number,
+                                row    : Number,
+                                column  : Number,
+                                status  : String
+                            }
